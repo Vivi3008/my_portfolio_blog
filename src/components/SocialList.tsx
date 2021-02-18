@@ -1,18 +1,18 @@
 import React from "react";
-import Twitter from "../assets/twitter-alt.svg";
-import GitHub from "../assets/github-alt.svg";
 import config from "../lib/config";
+import { FiLinkedin, FiGithub, FiGitlab } from 'react-icons/fi'
+import { SiWhatsapp } from 'react-icons/si'
 
 export function SocialList({}) {
   return (
     <div>
       <a
         title="Twitter"
-        href={`https://twitter.com/${config.twitter_account}`}
+        href={`https://linkedin.com/in/${config.linkedin_account}`}
         target="_blank"
         rel="noopener"
       >
-        <Twitter width={24} height={24} fill={"#222"} />
+        <FiLinkedin size={24} color="#222"/>
       </a>
       <a
         title="GitHub"
@@ -20,7 +20,23 @@ export function SocialList({}) {
         target="_blank"
         rel="noopener"
       >
-        <GitHub width={24} height={24} fill={"#222"} />
+        <FiGithub size={24} color={"#222"} />
+      </a>
+      <a
+        title="GitLab"
+        href={`https://gitlab.com/${config.gitlab_account}`}
+        target="_blank"
+        rel="noopener"
+      >
+        <FiGitlab size={24} color={"#222"} />
+      </a>
+      <a
+        title="Whatsapp"
+        href={`https://api.whatsapp.com/send?phone=${config.whatsapp}`}
+        target="_blank"
+        rel="noopener"
+      >
+        <SiWhatsapp size={24} color={"#222"} />
       </a>
       <style jsx>{`
         a {

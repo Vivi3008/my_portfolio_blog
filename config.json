@@ -1,19 +1,20 @@
 {
-  "base_url": "https://wutali-nextjs-netlify-blog.netlify.app",
-  "site_title": "Next.js Netlify Blog",
-  "site_description": "Next.js blog template for Netlify",
-  "site_keywords": [
-    {
-      "keyword": "Next.js"
-    },
-    {
-      "keyword": "Netlify"
-    },
-    {
-      "keyword": "React"
-    }
-  ],
-  "posts_per_page": 5,
-  "twitter_account": "@my-account",
-  "github_account": "wutali"
+    "base_url": "https://wutali-nextjs-netlify-blog.netlify.app",
+    "site_title": "Viviane Ramos",
+    "site_description": "Tudo sobre minha jornada no mundo da Programação",
+    "site_keywords": [{
+            "keyword": "Next.js"
+        },
+        {
+            "keyword": "Netlify"
+        },
+        {
+            "keyword": "React"
+        }
+    ],
+    "posts_per_page": 5,
+    "linkedin_account": "viviane-ramos-luz",
+    "github_account": "vivi3008",
+    "gitlab_account": "ramosluzviviane",
+    "whatsapp": 5562983386460
 }

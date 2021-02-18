@@ -4,6 +4,7 @@ import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
 import { SocialList } from "../components/SocialList";
 
+
 export default function Index() {
   return (
     <Layout>
@@ -13,10 +14,12 @@ export default function Index() {
       <div className="container">
         <div>
           <h1>
-            Hi, We're Next.js & Netlify<span className="fancy">.</span>
+            
+            Olá, sou a Vivi<span className="fancy">!</span>
           </h1>
-          <span className="handle">@nextjs-netlify-blog</span>
-          <h2>A blog template with Next.js and Netlify.</h2>
+         {/*  <span className="handle">@nextjs-netlify-blog</span> */}
+          <h2>Seja bem vinda(o) ao meu blog pessoal.</h2>
+          <h3>Sou Desenvolvedora Web que ama aprender e compartilhar sobre programação com a comunidade.</h3>
           <SocialList />
         </div>
       </div>
@@ -38,6 +41,11 @@ export default function Index() {
           font-weight: 400;
           line-height: 1.25;
         }
+        h3{
+          font-size: 1.55rem;
+          font-weight: 400;
+          line-height: 1.25;
+        }
         .fancy {
           color: #15847d;
         }
@@ -46,6 +54,9 @@ export default function Index() {
           margin-top: 0.275em;
           color: #9b9b9b;
           letter-spacing: 0.05em;
+        }
+        .logo{
+          transform: rotate(45deg);
         }
 
         @media (min-width: 769px) {

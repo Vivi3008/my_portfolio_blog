@@ -1,7 +1,7 @@
 import React from "react";
 import config from "../lib/config";
 import { FiLinkedin, FiGithub, FiGitlab } from 'react-icons/fi'
-import { SiWhatsapp } from 'react-icons/si'
+import { SiWhatsapp, SiGmail} from 'react-icons/si'
 
 export function SocialList({}) {
   return (

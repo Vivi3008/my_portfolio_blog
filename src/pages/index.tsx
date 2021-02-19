@@ -3,7 +3,7 @@ import BasicMeta from "../components/meta/BasicMeta";
 import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
 import { SocialList } from "../components/SocialList";
-
+import ViviLogo from '../assets/logo.svg'
 
 export default function Index() {
   return (
@@ -13,11 +13,11 @@ export default function Index() {
       <TwitterCardMeta url={"/"} />
       <div className="container">
         <div>
+          <ViviLogo />
           <h1>
-            
             Olá, sou a Vivi<span className="fancy">!</span>
           </h1>
-         {/*  <span className="handle">@nextjs-netlify-blog</span> */}
+         
           <h2>Seja bem vinda(o) ao meu blog pessoal.</h2>
           <h3>Sou Desenvolvedora Web que ama aprender e compartilhar sobre programação com a comunidade.</h3>
           <SocialList />
@@ -47,7 +47,7 @@ export default function Index() {
           line-height: 1.25;
         }
         .fancy {
-          color: #15847d;
+          color: #6b00f7;
         }
         .handle {
           display: inline-block;
@@ -55,9 +55,7 @@ export default function Index() {
           color: #9b9b9b;
           letter-spacing: 0.05em;
         }
-        .logo{
-          transform: rotate(45deg);
-        }
+      
 
         @media (min-width: 769px) {
           h1 {
